@@ -35,7 +35,6 @@ Link your RStudio to your GitHub account and create a **public** repository wher
 
 
 Refer to the **instructions html** for this question! The instructions to setup GitHub are not included in this template to save space.
-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
 
 To get full credit for this Question you must:
   
