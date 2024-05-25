@@ -304,6 +304,17 @@ Example: The number 312 would return 6 (3 + 1 + 2)
 Run your function with 935068.
 
 ```{r}
+digits_sum <- function(n){
+  if(n < 10){
+    return(n)
+  }else{
+    digit <- n %% 10
+    print(floor(n/10))
+    return(digit + digits_sum(floor(n/10)))
+  }
+}
 
+sum <- digits_sum(935068)
+print(sum)
 ```
 
