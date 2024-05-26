@@ -309,7 +309,7 @@ digits_sum <- function(n){
     return(n)
   }else{
     digit <- n %% 10
-    print(floor(n/10))
+    #print(floor(n/10))
     return(digit + digits_sum(floor(n/10)))
   }
 }
